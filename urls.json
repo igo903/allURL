@@ -1,0 +1,42 @@
+{
+	"sites": [{
+			"name": "爱乐奇官网",
+			"url": "http://www.alo7.com"
+		},
+		{
+			"name": "爱乐奇家长端Web登录页",
+			"url": "https://login.alo7.com/#/parent",
+      "account":"",
+      "password":""
+		},
+    {
+			"name": "爱乐奇老师端Web登录页",
+			"url": "https://login.alo7.com/#/teacher"
+		},
+		{
+			"name": "爱乐奇少儿入口Vworld",
+			"url": "https://student.alo7.com/vworld.html"
+		},{
+			"name": "爱乐奇公司邮箱",
+			"url": "https://mail.alo7.com"
+		},{
+			"name": "爱乐奇Gitlab Repo",
+			"url": "https://git.saybot.net/users/sign_in"
+		},{
+			"name": "爱乐奇Confluence",
+			"url": "https://login.alo7.com/#/teacher"
+		},{
+			"name": "爱专教Web端",
+			"url": "http://www.aizhuanjiao.com"
+		},{
+			"name": "爱乐奇老师端Web登录页",
+			"url": "https://login.alo7.com/#/teacher"
+		},{
+			"name": "AOC",
+			"url": "https://login.alo7.com/#/teacher"
+		},{
+			"name": "爱运营",
+			"url": "https://login.alo7.com/#/teacher"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "allurl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igo903/allURL.git"
+  },
+  "author": "igo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igo903/allURL/issues"
+  },
+  "homepage": "https://github.com/igo903/allURL#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^2.2.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
