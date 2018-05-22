@@ -1,42 +1,366 @@
 {
 	"sites": [{
 			"name": "爱乐奇官网",
-			"url": "http://www.alo7.com"
+			"platform":"Web",
+			"users":"机构客户",
+			"url": "http://www.alo7.com",
+			"to":"外网用户",
+			"productOwner":"Unknow",
+			"techOwner":"KK Shen"
 		},
+
+
 		{
-			"name": "爱乐奇家长端Web登录页",
-			"url": "https://login.alo7.com/#/parent",
-      "account":"",
-      "password":""
+			"name": "爱乐奇家长端网站",
+			"platform":"Web",
+			"alias":"爱校通-家长",
+			"users":"家长",
+			"description":"除了给家长查看学习情况，后来视频外教课的入口也放在了爱乐奇家长这里。现在的逻辑是：如果该账号有视频外教课，则登录显示视频外教上课网站；若该账号没有视频外教课，则登录显示的是家长页面。",
+      "url": "https://login.alo7.com/#/parent",
+			"to":"外网用户",
+			"account":"18761890898",
+      "password":"123456",
+			"productOwner":"Unknow",
+			"techOwner":"KK Shen"
+		},{
+			"name": "爱乐奇家长",
+			"platform":"App",
+			"alias":"爱校通-家长",
+			"users":"家长",
+			"url":"http://www.alo7.com/mobile/axt/parent/",
+			"to":"外网用户",
+			"account":"18761890898",
+      "password":"123456",
+			"productOwner":"Unknow",
+			"techOwner":"Nick Lin"
+		},{
+			"name": "爱乐奇家长",
+			"platform":"微信服务号",
+			"users":"家长",
+			"to":"外网用户",
+			"account":"18761890898",
+      "password":"123456",
+			"productOwner":"Luyi Wang",
+			"techOwner":"KK Shen"
 		},
-    {
-			"name": "爱乐奇老师端Web登录页",
-			"url": "https://login.alo7.com/#/teacher"
-		},
+
+
 		{
+			"name": "爱乐奇老师端网站",
+			"platform":"Web",
+			"alias":"爱校通-老师",
+			"users":"老师&外教",
+			"description":"除了机构老师使用管理班级学生，后来视频外教的外教上课入口也放在了这里。",
+			"url": "https://login.alo7.com/#/teacher",
+			"to":"外网用户",
+			"account":"18606513861（机构老师）",
+      "password":"qweqwe",
+			"account2":"100999（外教）",
+      "password2":"qweqwe",
+			"productOwner":"Unknow",
+			"techOwner":"KK Shen"
+		},{
+			"name": "爱乐奇老师",
+			"platform":"App",
+			"alias":"爱校通-老师",
+			"users":"老师",
+			"url":"http://www.alo7.com/mobile/axt/teacher/",
+			"to":"外网用户",
+			"account":"18606513861",
+			"password":"qweqwe",
+			"productOwner":"Unknow",
+			"techOwner":"Nick Lin"
+		},{
+			"name": "爱课件2.0",
+			"platform":"桌面应用程序",
+			"users":"老师",
+			"description":"爱课件2.0可在PC、交互白板、电视机上使用，前身是爱课件1.5，现在爱课件1.5和2.0都有客户在使用。爱课件1.5已经不维护了。在视频外教业务中还会使用线上课件，嵌入上课网站。课件的内容和模版在Kelly管理。",
+			"url":"http://www.alo7.com/helps/ikj_faq.html#fail_info",
+			"to":"外网用户",
+			"account": "同老师端账号",
+			"productOwner":"Jun Chen",
+			"techOwner":"Byrne Liang"
+		},
+
+
+		{
+			"name": "爱乐奇",
+			"platform":"App",
+			"alias":"学生端3.0",
+			"users":"学生",
+			"description":"最新的学生端app，前身是爱作业，与爱作业是分别两个独立的app。爱作业已经不再推行，在内容完全迁移至学生端3.0后会下架。",
+			"url":"http://www.alo7.com/mobile/alo7_student/index.html",
+			"to":"外网用户",
+			"account":"10101010202（有套餐，无视频课）",
+      "password":"123456",
+			"account2":"18761890898（无套餐，有视频课）",
+      "password2":"123456",
+			"productOwner":"Nicole Gong",
+			"techOwner":"Nick Lin"
+		},{
+			"name": "爱作业",
+			"platform":"App",
+			"users":"学生",
+			"description":"旧版学生端app，前身是爱作业，与爱作业是分别两个独立的app。爱作业已经不再推行，在内容完全迁移至学生端3.0后会下架。",
+			"url":"https://itunes.apple.com/cn/app/%E7%88%B1%E4%BD%9C%E4%B8%9A/id1172201048?mt=8",
+			"to":"外网用户",
+			"account":"10101010202（有套餐，无视频课）",
+      "password":"123456",
+			"account2":"18761890898（无套餐，有视频课）",
+      "password2":"123456",
+			"productOwner":"Unknow",
+			"techOwner":"Byrne Liang"
+		},{
 			"name": "爱乐奇少儿入口Vworld",
-			"url": "https://student.alo7.com/vworld.html"
+			"platform":"Web",
+			"users":"学生",
+			"description":"最早开发的少儿入口，集爱作业功能和游戏为一体的网站，已经不再维护。",
+			"url": "https://student.alo7.com/vworld.html",
+			"to":"外网用户",
+			"account":"10101010202",
+			"password":"123456",
+			"productOwner":"Unknow",
+			"techOwner":"Byrne Liang"
+		},
+
+
+		{
+			"name": "Ellis",
+			"platform":"Web",
+			"users":"内部同事，课程部为主",
+			"description":"作业的出题系统，包含了作业模版和作业内容，只有公司内网可用，需要给公司员工账号设置权限了之后可登录。",
+			"url": "http://ellis.shuobaotang.com/",
+			"to":"内网用户",
+			"productOwner":"Tinny Tao",
+			"techOwner":"Byrne Liang"
 		},{
-			"name": "爱乐奇公司邮箱",
-			"url": "https://mail.alo7.com"
+			"name": "H5作业题型模版",
+			"platform":"H5",
+			"users":"学生",
+			"description":"作业的题型模版曾经是flash的，后技术更新重新设计了H5的题型模版，目前是嵌套在爱乐奇学生端里，管理还是在Ellis。",
+			"to":"外网用户",
+			"productOwner":"Jason Qian",
+			"techOwner":"Byrne Liang"
 		},{
-			"name": "爱乐奇Gitlab Repo",
-			"url": "https://git.saybot.net/users/sign_in"
+			"name": "Kelly",
+			"platform":"Web",
+			"users":"内部同事，课程部为主",
+			"description":"课件的出题系统，包含了课件模版和作业内容，只有公司内网可用，需要给公司员工账号设置权限了之后可登录。",
+			"url": "http://kelly.shuobaotang.com/",
+			"to":"内网用户",
+			"productOwner":"Tinny Tao",
+			"techOwner":"Byrne Liang"
 		},{
-			"name": "爱乐奇Confluence",
-			"url": "http://confluence.saybot.net/"
+			"name": "H5课件模版",
+			"platform":"H5",
+			"users":"学生",
+			"description":"课件模版曾经是flash的，后技术更新重新设计了H5的课件模版，目前是嵌套在爱乐奇学生端里，管理在Kelly。",
+			"to":"外网用户",
+			"productOwner":"Jason Qian",
+			"techOwner":"Byrne Liang"
 		},{
-			"name": "爱专教Web端",
-			"url": "http://www.aizhuanjiao.com"
+			"name": "爱测评",
+			"platform":"App",
+			"users":"机构招生人员&学生",
+			"description":"机构用来招生的工具。机构通过该App给学生做测试来分级分班，并能结合全国范围内看到测试的数据和比较。只能在Pad上使用。",
+			"url":"https://itunes.apple.com/cn/app/ai-ce-ping/id945561081?mt=8",
+			"to":"外网用户",
+			"account":"13611761573",
+      "password":"saybot123",
+			"productOwner":"Neil Dong",
+			"techOwner":"Byrne Liang"
 		},{
-			"name": "爱乐奇老师端Web登录页",
-			"url": "https://login.alo7.com/#/teacher"
+			"name": "H5测评",
+			"platform":"H5",
+			"users":"学生",
+			"description":"H5形式的自适应测评，会根据学生做题情况评级。可在多个产品中辅助使用，比如学生端，微信分享链接，绘本馆等。",
+			"to":"外网用户",
+			"productOwner":"Neil Dong",
+			"techOwner":"Hanfei Shen"
+		},
+
+
+		{
+			"name": "爱运营",
+			"platform":"Web",
+			"users":"机构负责人&公司内部同事",
+			"description":"机构负责人（比如校长）使用的管理账号、查看数据的后台。公司内网人员使用可管理客户、账号，查看视频外教的外教薪资和与客户的合同（该模块未来会迁移至视频外教管理后台）。",
+			"url": "https://iyy.alo7.com",
+			"to":"外网用户",
+			"account":"17721466615（admin，内网管理人员角色）",
+      "password":"saybot5t^Y&U",
+			"account2":"13611761573（配置给机构校长使用的账号）",
+      "password2":"saybot123",
+			"productOwner":"Neil Dong",
+			"techOwner":"Leon Li"
+		},
+
+
+		{
+			"name": "视频外教老师上课端",
+			"platform":"Web",
+			"alias": "爱专教",
+			"users":"外教",
+			"description":"通过判定外教的账号在爱乐奇老师端Web登录页登录后，进入外教上课页面。",
+			"url": "https://tutor.alo7.com/t/",
+			"to":"外网用户",
+			"account":"100999",
+      "password":"qweqwe",
+			"productOwner":"Ye Wang",
+			"techOwner":"Yihui Cao"
+		},{
+			"name": "视频外教学生上课端",
+			"platform":"Web",
+			"alias": "爱专教",
+			"users":"学生",
+			"description":"通过判定家长的账号在爱乐奇家长端Web登录页登录后，进入学生上课页面。",
+			"url": "https://parent-tutoring.alo7.com/u/",
+			"to":"外网用户",
+			"account":"18761890898",
+      "password":"123456",
+			"productOwner":"Ye Wang",
+			"techOwner":"Yihui Cao"
+		},{
+			"name": "AWJ Admin-视频外教运营内网端",
+			"platform":"Web",
+			"users":"内部同事，以视频外教运营为主",
+			"description":"公司内网运营人员和教学团队可使用该网站管理客户、师资、教学质量、课程等等。只有公司内网可用，需要给公司员工账号设置权限了之后可登录。",
+			"url": "https://www.aizhuanjiao.com/awj_admin",
+			"to":"内网用户",
+			"productOwner":"Ye Wang & Roy Zhu",
+			"techOwner":"Yihui Cao"
+		},{
+			"name": "AWJ Admin-视频外教运营机构端",
+			"platform":"Web",
+			"users":"机构排课人员",
+			"description":"机构负责人通过该网站给学生建班、排课、后台监管。",
+			"url": "https://www.aizhuanjiao.com/jigou",
+			"to":"外网用户",
+			"account":"test-training",
+      "password":"123456",
+			"productOwner":"Ye Wang & Roy Zhu",
+			"techOwner":"Yihui Cao"
+		},{
+			"name": "外教招聘网站-申请者端",
+			"platform":"Web",
+			"users":"外籍申请者",
+			"description":"申请者通过一系列招聘流程申请成为外教。",
+			"url": "https://tutor.alo7.com/",
+			"to":"外网用户",
+			"account":"：satinlin@hotmail.com",
+      "password":"qweqwe",
+			"productOwner":"Satin Lin",
+			"techOwner":"Yihui Cao"
+		},{
+			"name": "外教招聘网站-招聘官端",
+			"platform":"Web",
+			"users":"兼职招聘官的外教&内网外教招聘团队",
+			"description":"外国的兼职招聘官和我们公司的外教招聘负责人通过对应后台招聘、管理申请者。",
+			"url": "https://tutor.alo7.com/interviewers",
+			"to":"外网用户",
+			"account":"：satin.lin@alo7.com",
+      "password":"alo7aizhuanjiao",
+			"productOwner":"Satin Lin",
+			"techOwner":"Yihui Cao"
 		},{
 			"name": "AOC",
-			"url": "https://login.alo7.com/#/teacher"
+			"platform":"桌面应用程序",
+			"users":"学生",
+			"description":"视频外教的学生、外教上课使用的工具，有课表、签到、实时视频聊天、互动课件、个人信息等功能，还未上线。据曹老师说，计划该工具以后不仅仅是给爱乐奇视频外教上课使用，还有可能作为工具产品卖给别的公司使用。",
+			"productOwner":"Roy Zhu",
+			"techOwner":"Yihui Cao"
+		},
+
+
+		{
+			"name": "Vwops",
+			"platform":"Web",
+			"users":"内部同事，如产品部，客服等",
+			"description":"是供内网使用的爱乐奇产品的管理后台，产品部、课程部、技术部、客服部均有在使用，根据账号开通的不同权限可使用不同的功能，比如客服给学生账号充值的撤销就是在该后台操作。",
+			"url": "https://www.aizhuanjiao.com/awj_admin",
+			"to":"内网用户",
+			"productOwner":"Unknow",
+			"techOwner":"KK Shen"
 		},{
-			"name": "爱运营",
-			"url": "https://login.alo7.com/#/teacher"
+			"name": "Bingo",
+			"platform":"Web",
+			"users":"内部同事，以客服为主",
+			"description":"管理客户数据，生成学生套餐充值码。",
+			"url": "https://www.aizhuanjiao.com/awj_admin",
+			"to":"内网用户",
+			"productOwner":"Unknow",
+			"techOwner":"Leon Li"
+		},
+
+
+		{
+			"name": "爱乐奇英语",
+			"platform":"微信订阅号",
+			"users":"机构客户",
+			"description": "由市场部在运营，目标用户是机构.",
+			"to":"外网用户",
+			"productOwner":"Marketing"
+		},
+		{
+			"name": "天才英语",
+			"platform":"微信服务号",
+			"users":"家长",
+			"description": "是一个对个体用户卖视频外教课的服务号，基本没有推广没在运行.",
+			"to":"外网用户",
+			"productOwner":"Yihui Cao"
+		},
+		{
+			"name": "天天爱配音",
+			"platform":"微信小程序",
+			"users":"学生",
+			"description": "爱配音的小程序，爱乐奇未来菁英风采秀就在该小程序中。",
+			"to":"外网用户",
+			"productOwner":"Jun Chen",
+			"techOwner":"KK Shen"
+		},
+		{
+			"name": "每日绘本馆",
+			"platform":"微信订阅号",
+			"users":"学生",
+			"description": "绘本打卡，提供leveled reader绘本内容给孩子看。",
+			"to":"外网用户",
+			"productOwner":"Jun Chen",
+			"techOwner":"KK Shen"
+		},
+		{
+			"name": "爱乐奇周边商城",
+			"platform":"H5",
+			"users":"机构客户",
+			"description": "卖充值卡、门票（大会、师训会）、实体商品（玩偶文具之类），搭载在有赞的平台上。之前在爱乐奇订阅号上有个按钮，现在没有了，目前都是客服在官群推送客户。",
+			"to":"外网用户",
+			"productOwner":"Marketing"
+		},
+
+
+		{
+			"name": "爱乐奇公司邮箱",
+			"platform":"Web",
+			"users":"内部同事",
+			"url": "https://mail.alo7.com",
+			"to":"外网用户",
+			"techOwner":"IT"
+		},
+		{
+			"name": "爱乐奇Gitlab Repo",
+			"platform":"Web",
+			"users":"内部同事，以技术部、产品部为主",
+			"url": "https://git.saybot.net/users/sign_in",
+			"to":"内网用户",
+			"techOwner":"Hanfei Shen"
+		},
+		{
+			"name": "爱乐奇Confluence",
+			"platform":"Web",
+			"users":"内部同事，以产品部、技术部为主",
+			"description":"写prd、相关文档的工具网站。",
+			"url": "http://confluence.saybot.net/",
+			"to":"内网用户",
+			"techOwner":"Yihui Cao"
 		}
 	]
 }
